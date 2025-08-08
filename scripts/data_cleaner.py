@@ -30,7 +30,7 @@ def extract_features(df):
     Select and return the core feature set for modeling
     """
     feature_columns = [
-        'UB2', 'MN34', 'EC6', 'EC7', 'EC8', 'EC9', 'EC10', 'EC11', 'EC12', 'EC13', 'EC14', 'EC15',  #Child's age, birth weight (in g), early childhood development indicators
+        'AN4', 'MN34', 'EC6', 'EC7', 'EC8', 'EC9', 'EC10', 'EC11', 'EC12', 'EC13', 'EC14', 'EC15',  #Child's age, birth weight (in g), early childhood development indicators
         'WB6A', 'WB6B', 'WAGE', 'MN5', 'WB14', #Mother's years of education, mother's age, # antenatal visits (healthcare proxy), literacy status (agency and education proxy)
         'windex5', 'HH48',      #Wealth quintile, household size, urban/rural residence
         'WS1', 'WS4',                   #main water source, time to collect water

@@ -1,0 +1,8 @@
+## Here’s a minimal set of packages used so far:
+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+pyreadstat
